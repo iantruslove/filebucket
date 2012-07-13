@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:time=" http://a9.com/-/opensearch/extensions/time/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml" xmlns:georss="http://www.georss.org/georss">
+  <title>Yet Another Test Data Set</title>
+  <subtitle>A test, only a test</subtitle>
+  <entry>
+    <title>Yet Another Test Data Set</title>
+    <link rel="alternate" href="http://nsidc.org" />
+    <author>
+      <name />
+    </author>
+    <updated>2012-07-13T17:05:03Z</updated>
+    <published>2012-07-13T17:05:03Z</published>
+    <content type="application/xml">
+      <dc:Datacast xmlns:dc="http://www.nsidc.org/libre/schema/DataCast">
+        <dc:identity>
+          <dc:entry_id>TEST-001</dc:entry_id>
+          <dc:title>Yet Another Test Data Set</dc:title>
+          <dc:progress>completed</dc:progress>
+          <dc:summary>A test, only a test</dc:summary>
+          <dc:language>eng</dc:language>
+          <dc:creator>Ruth Duerr</dc:creator>
+          <dc:release_date>2012-07-13</dc:release_date>
+          <dc:release_place>Boulder, CO</dc:release_place>
+          <dc:publisher>NSIDC</dc:publisher>
+          <dc:version>1.0</dc:version>
+          <dc:online_resource>http://nsidc.org</dc:online_resource>
+        </dc:identity>
+        <dc:facets>
+          <dc:parameter>
+            <dc:category>EARTH SCIENCE</dc:category>
+            <dc:topic>CRYOSPHERE</dc:topic>
+            <dc:term>SEA ICE</dc:term>
+            <dc:variable_level_1>ICE DEPTH/THICKNESS</dc:variable_level_1>
+          </dc:parameter>
+          <dc:location>
+            <dc:location_category>CONTINENT</dc:location_category>
+            <dc:location_type>ANTARCTICA</dc:location_type>
+          </dc:location>
+          <dc:iso_topic_category>climatologyMeteorologyAtmosphere</dc:iso_topic_category>
+          <dc:extent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dc:Spatial_Extent">
+            <dc:southernmost_latitude>-90.0</dc:southernmost_latitude>
+            <dc:northernmost_latitude>-75.0</dc:northernmost_latitude>
+            <dc:westernmost_longitude>-180.0</dc:westernmost_longitude>
+            <dc:easternmost_longitude>180.0</dc:easternmost_longitude>
+          </dc:extent>
+          <dc:extent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dc:Temporal_Extent">
+            <dc:start>1972-07-01</dc:start>
+            <dc:end>2012-07-01</dc:end>
+          </dc:extent>
+        </dc:facets>
+        <dc:contacts>
+          <dc:contact>
+            <dc:individual_name>NSIDC</dc:individual_name>
+            <dc:organization_name />
+            <dc:position_name />
+            <dc:role>publisher</dc:role>
+            <dc:phone />
+            <dc:fax />
+            <dc:city />
+            <dc:administrative_area />
+            <dc:postal_code />
+            <dc:country>United States</dc:country>
+            <dc:hours_of_service />
+            <dc:contact_instructions />
+          </dc:contact>
+          <dc:contact>
+            <dc:individual_name>Ruth Duerr</dc:individual_name>
+            <dc:organization_name />
+            <dc:position_name />
+            <dc:role>author</dc:role>
+            <dc:phone />
+            <dc:fax />
+            <dc:city />
+            <dc:administrative_area />
+            <dc:postal_code />
+            <dc:country>United States</dc:country>
+            <dc:hours_of_service />
+            <dc:contact_instructions />
+          </dc:contact>
+          <dc:contact>
+            <dc:individual_name>Ruth Duerr</dc:individual_name>
+            <dc:role>metadataContact</dc:role>
+            <dc:country>United States</dc:country>
+            <dc:hours_of_service />
+            <dc:contact_instructions />
+          </dc:contact>
+          <dc:contact>
+            <dc:individual_name>NSIDC</dc:individual_name>
+            <dc:role>distributor</dc:role>
+            <dc:country>United States</dc:country>
+            <dc:hours_of_service />
+            <dc:contact_instructions />
+          </dc:contact>
+        </dc:contacts>
+        <dc:rights>
+          <dc:access_restrictions>NONE</dc:access_restrictions>
+          <dc:use_constraints><![CDATA[NONE]]></dc:use_constraints>
+        </dc:rights>
+        <dc:metadata />
+      </dc:Datacast>
+    </content>
+    <summary type="text">A test, only a test</summary>
+    <dc:date>2012-07-13T17:05:03Z</dc:date>
+    <georss:where>
+      <gml:Envelope>
+        <gml:lowerCorner>-90.0 -180.0</gml:lowerCorner>
+        <gml:upperCorner>-75.0 180.0</gml:upperCorner>
+      </gml:Envelope>
+    </georss:where>
+    <time:start>1972-07-01T00:00:00-06:00</time:start>
+    <time:end>2012-07-01T00:00:00-06:00</time:end>
+  </entry>
+</feed>
+
